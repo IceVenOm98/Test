@@ -3,7 +3,7 @@
     using System;
     using Terrasoft.Core.Entities;
     using Terrasoft.Core.Entities.Events;
-
+    /*
     [EntityEventListener(SchemaName = "Activity")]
     public class CgrActivityEventListener : BaseEntityEventListener
     {
@@ -12,6 +12,6 @@
             base.OnSaving(sender, e);
             //throw new Exception("Test");
         }
-    }
+    }*/
 }
  
