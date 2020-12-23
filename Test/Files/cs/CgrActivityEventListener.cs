@@ -10,7 +10,8 @@
         public override void OnSaving(object sender, EntityBeforeEventArgs e)
         {
             base.OnSaving(sender, e);
-            throw new Exception("Test");
+            //throw new Exception("Test");
         }
     }
 }
+ 
