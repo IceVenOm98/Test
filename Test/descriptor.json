@@ -1,10 +1,20 @@
 ﻿{
   "Descriptor": {
     "UId": "944127a1-53ec-491d-b8e8-b0d5683900af",
-    "PackageVersion": "1.0.3",
+    "PackageVersion": "1.0.4",
     "Name": "Test",
     "ModifiedOnUtc": "/Date(1530548445000)/",
     "Maintainer": "CRMGuru",
-    "DependsOn": []
-  }
-}
+    "DependsOn": [
+      {
+        "UId": "D7559847-F38E-410C-BAEE-6F43BBE80D42",
+        "Name": "SalesEnterpriseSoftkey_ENU"
+      },
+      {
+        "UId": "0ECE3A34-413F-415B-919B-7B29BB31701F",
+        "Name": "SalesEnterpriseSoftkey_Obsolete"
+      }
+    ]
+  },
+
+}   
